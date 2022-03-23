@@ -10,7 +10,6 @@ export function renderCryptids(cryptid){
     cryptidName.textContent = cryptid.name;
     cryptidImage.src = cryptid.image;
     a.href = `./details/?id=${cryptid.id}`;
-    console.log(a.href);
 
     cryptidDiv.append(cryptidName, cryptidImage);
 
