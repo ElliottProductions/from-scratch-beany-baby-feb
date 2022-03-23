@@ -54,7 +54,7 @@ export function renderCryptidDetails(cryptid){
     if (cryptid.dangerous === true){
         isDanger = 'Yes';
     }
-    cryptidType.textContent = `Type: ${cryptid.type}`
+    cryptidType.textContent = `Type: ${cryptid.type}`;
     cryptidDangerous.textContent = `Dangerous to humans: ${isDanger}.`;
     cryptidPhenom.textContent = `Known for: ${cryptid.phenom}`;
 

@@ -1,6 +1,6 @@
 // import functions and grab DOM elements
-import { getCryptids, getCryptid } from "./fetch-utils.js";
-import { renderCryptids } from "./render-utils.js";
+import { getCryptids } from './fetch-utils.js';
+import { renderCryptids } from './render-utils.js';
 
 const cryptidContainer = document.querySelector('.cryptid-list');
 // let state
@@ -8,7 +8,7 @@ let cryptidList = [];
 
 // set event listeners 
 
-window.addEventListener('load', async() => {
+window.addEventListener('load', async () => {
     cryptidList = await getCryptids();
 
     for (let cryptid of cryptidList){
