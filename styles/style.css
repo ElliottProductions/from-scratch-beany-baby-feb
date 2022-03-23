@@ -2,11 +2,11 @@
 body {
     /* feel free to update these css variables for a quick theme */
     
-    --color1: white;
-    --color2: white;
-    --color3: white;
-    --color4: white;
-    --color5: white;
+    --color1: rgb(39, 39, 41);
+    --color2: rgb(39, 39, 41);
+    --color3: rgb(39, 39, 41);
+    --color4: rgb(39, 39, 41);
+    --color5: rgb(39, 39, 41);
     
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
         
@@ -102,12 +102,49 @@ footer {
 
 }
 
+.cryptid-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cryptid-card {
+    height: 220px;
+}
 .cryptid-card > img {
     width: 150px;
+    
     border-radius: 10%;
 }
 
 .cryptid-card > p {
     margin: 1px;
     font-weight: bolder;
+}
+
+.cryptid-details > img {
+    width: 300px;
+}
+
+.cryptid-details > ol {
+    font-size: 15px;
+}
+
+.cryptid-details > p {
+    margin: 5px;
+    padding: 10px;
+}
+
+.cryptid-details {
+    background-color: rgb(0, 0, 0);
+    color:coral;
+    padding: 10px;
+    width: 320px;
+}
+
+.details-body {
+    background-color: rgb(39, 39, 41);
+}
+
+.aka-box {
+    margin: 5px;
 }

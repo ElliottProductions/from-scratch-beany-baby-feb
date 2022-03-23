@@ -1,7 +1,7 @@
 import { getCryptid } from '../fetch-utils.js';
 import { renderCryptidDetails } from '../render-utils.js';
 
-const cryptidDetailContainer = document.getElementById('cryptid-detail-container');
+const cryptidDetailContainer = document.querySelector('.cryptid-detail-container');
 
 // on load
 
