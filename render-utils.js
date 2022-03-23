@@ -58,7 +58,7 @@ export function renderCryptidDetails(cryptid){
     cryptidDangerous.textContent = `Dangerous to humans: ${isDanger}.`;
     cryptidPhenom.textContent = `Known for: ${cryptid.phenom}`;
 
-    cryptidDiv.append(cryptidImage, cryptidName, akaIntro, cryptidAKA, cryptidType, cryptidRange, cryptidDangerous, cryptidPhenom);
+    cryptidDiv.append(cryptidImage, cryptidName, akaIntro, cryptidAKA, cryptidType, cryptidRange, cryptidSighting, cryptidDangerous, cryptidPhenom);
  
 
 
