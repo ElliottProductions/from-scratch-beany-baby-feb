@@ -49,7 +49,7 @@ export function renderCryptidDetails(cryptid){
     }
     //cryptidAKA.textContent = `AKA: ${cryptid.aka[0]}`;
     cryptidRange.textContent = `Range: ${cryptid.range}.`;
-    cryptidRange.textContent = `First recorded mention: ${cryptid.sightings} A.D.`;
+    cryptidSighting.textContent = `First recorded mention: ${cryptid.sightings} A.D.`;
     let isDanger = 'Unknown';
     if (cryptid.dangerous === true){
         isDanger = 'Yes';
