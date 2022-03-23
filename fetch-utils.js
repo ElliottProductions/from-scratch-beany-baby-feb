@@ -10,8 +10,7 @@ export async function getCryptids(){
         .from('cryptiddetails')
         .select('*');
         
-
-    return response;
+    return response.body;
 }
 
 export async function getCryptid(id){
