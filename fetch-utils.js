@@ -14,13 +14,12 @@ export async function getCryptids(){
 }
 
 export async function getCryptid(id){
-
+    console.log(id);
     const response = await client
         .from('cryptiddetails')
         .select('*')
         .match({ id: id })
-
         .single();
 
-    return response;
+    return response.body;
 }
